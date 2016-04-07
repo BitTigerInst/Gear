@@ -1,20 +1,20 @@
 // import { Template } from 'meteor/templating';
 // import { ReactiveVar } from 'meteor/reactive-var';
-import { Meteor } from 'meteor/meteor';
-
-import './main.html';
-
-Meteor.startup(() => {
-  // render(<App />, document.getElementById('render-target'));
-  // var masonryNode = $('#masonry');
-  //
-  // masonryNode.imagesLoaded(function(){
-  //   masonryNode.masonry({
-  //     itemSelector: '.thumbnail',
-  //     isFitWidth: true
-  //   });
-  // });
-});
+// import { Meteor } from 'meteor/meteor';
+//
+// import './main.html';
+//
+// Meteor.startup(() => {
+//   render(<App />, document.getElementById('render-target'));
+//   var masonryNode = $('#masonry');
+//
+//   masonryNode.imagesLoaded(function(){
+//     masonryNode.masonry({
+//       itemSelector: '.thumbnail',
+//       isFitWidth: true
+//     });
+//   });
+// });
 
 //////////////////////////////////////////////
 
