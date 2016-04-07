@@ -1,5 +1,5 @@
-/* jshint: esnext: true */
-/* global System */
-"use strict";
+import { Meteor } from 'meteor/meteor';
 
-System.import('server/startup');
+Meteor.startup(() => {
+  // code to run on server at startup
+});
