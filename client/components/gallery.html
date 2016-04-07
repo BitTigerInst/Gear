@@ -1,60 +1,15 @@
 <template name="gallery">
   <div id="masonry" class="container-fluid">
+    {{#each photos}}
       <div class="thumbnail">
           <div class="imgs">
-              <img src="/images/1.jpg" />
+              <img src="{{src}}" />
           </div>
           <div class="caption">
-              <div class="title">Hello Thumbnail</div>
-              <div class="content">
-
-              </div>
+              <div class="title">{{title}}</div>
+              <div class="content"></div>
           </div>
       </div>
-      <div class="thumbnail">
-          <div class="imgs">
-              <img src="/images/2.jpg" />
-          </div>
-          <div class="caption">
-              <div class="title">Hello Thumbnail</div>
-              <div class="content">
-
-              </div>
-          </div>
-      </div>
-      <div class="thumbnail">
-          <div class="imgs">
-              <img src="/images/3.jpg" />
-          </div>
-          <div class="caption">
-              <div class="title">Hello Thumbnail</div>
-              <div class="content">
-
-              </div>
-          </div>
-      </div>
-      <div class="thumbnail">
-          <div class="imgs">
-              <img src="/images/4.jpg" />
-          </div>
-          <div class="caption">
-              <div class="title">Hello Thumbnail</div>
-              <div class="content">
-
-              </div>
-          </div>
-      </div>
-      <div class="thumbnail">
-          <div class="imgs">
-              <img src="/images/5.jpg" />
-          </div>
-          <div class="caption">
-              <div class="title">Hello Thumbnail</div>
-              <div class="content">
-
-              </div>
-          </div>
-      </div>
-
+   {{/each}}
   </div>
 </template>
